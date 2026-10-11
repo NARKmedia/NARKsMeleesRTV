@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="KnifeData" format=3]
+
+[ext_resource type="Texture2D" path="res://NARK_Karambit/Assets/Icon.res" id="1"]
+[ext_resource type="Script" path="res://Scripts/KnifeData.gd" id="2"]
+[ext_resource type="Resource" path="res://Audio/Equipment/Knives/Knife_Slash.tres" id="3"]
+[ext_resource type="Resource" path="res://Audio/Equipment/Knives/Knife_Stab.tres" id="4"]
+[ext_resource type="PackedScene" path="res://NARK_Karambit/Karambit_1x2.tscn" id="5"]
+
+[resource]
+script = ExtResource("2")
+damage = 20.0
+collisionSize = Vector3(0.01456423663, 0.1008789986, 0.2306462228)
+slash = ExtResource("3")
+stab = ExtResource("4")
+highPosition = Vector3(-0.02, -0.05, -0.15)
+highRotation = Vector3(0, 0, -2)
+lowPosition = Vector3(-0.02, -0.05, -0.15)
+lowRotation = Vector3(0, 0, -2)
+inspectPosition = Vector3(0, -0.06, -0.12)
+inspectRotation = Vector3(0, 0, -15)
+collisionPosition = Vector3(-0.02, -0.05, -0.15)
+file = "NARK_Karambit"
+name = "Karambit"
+inventory = "Karambit"
+rotated = "Karambit"
+equipment = "Karambit"
+display = "Karambit"
+type = "Knife"
+weight = 0.2
+value = 600
+icon = ExtResource("1")
+tetris = ExtResource("5")
+size = Vector2(1, 2)
+suppressorOffset = 1.0
+audio = null
+slots = ["Knife"]
+material = null
+industrial = false
+civilian = false
+military = true
+generalist = false
+gunsmith = true
+hunter = false
+orientation = 90.0
+wallOffset = 0.02
