@@ -43,3 +43,5 @@ gunsmith = false
 hunter = true
 orientation = 90.0
 wallOffset = 0.02
+rarity = 1
+doctor = false

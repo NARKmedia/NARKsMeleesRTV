@@ -1,9 +1,9 @@
 [mod]
 id="nark_meles"
 name="NARK's Melees"
-version="0.1.4"
+version="0.1.5"
 author="NARK"
-description="M9 Bayonet, Blue Baller, Hatchet, NARK MK1, Karambit and Machete using vanilla melee animations."
+description="M9 Bayonet, Blue Baller, Hatchet, NARK MK1, Karambit, Machete using vanilla melee animations."
 priority=970
 replace_files=false
 

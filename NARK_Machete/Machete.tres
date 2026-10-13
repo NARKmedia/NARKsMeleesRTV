@@ -44,3 +44,4 @@ hunter = false
 doctor = true
 orientation = 90.0
 wallOffset = 0.02
+rarity = 0

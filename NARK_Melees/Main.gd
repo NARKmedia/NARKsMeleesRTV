@@ -1,12 +1,30 @@
 extends Node
 
 const ITEMS = [
-	["NARK_M9_Bayonet", "res://NARK_M9_Bayonet/M9_Bayonet"],
-	["NARK_Ice_Pick", "res://NARK_Ice_Pick/Ice_Pick"],
-	["NARK_Hatchet", "res://NARK_Hatchet/Hatchet"],
-	["NARK_Combat_Knife", "res://NARK_Combat_Knife/Combat_Knife"],
-	["NARK_Karambit", "res://NARK_Karambit/Karambit"],
-	["NARK_Machete", "res://NARK_Machete/Machete"]
+	[
+		"NARK_M9_Bayonet",
+		"res://NARK_M9_Bayonet/M9_Bayonet"
+	],
+	[
+		"NARK_Ice_Pick",
+		"res://NARK_Ice_Pick/Ice_Pick"
+	],
+	[
+		"NARK_Hatchet",
+		"res://NARK_Hatchet/Hatchet"
+	],
+	[
+		"NARK_Combat_Knife",
+		"res://NARK_Combat_Knife/Combat_Knife"
+	],
+	[
+		"NARK_Karambit",
+		"res://NARK_Karambit/Karambit"
+	],
+	[
+		"NARK_Machete",
+		"res://NARK_Machete/Machete"
+	]
 ]
 
 func _ready():
